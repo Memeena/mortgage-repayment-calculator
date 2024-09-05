@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply border border-slate-500 rounded-md w-full  px-4 py-3 text-sm font-bold transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-slate-300 md:px-6 md:py-4 hover:border-slate-700 cursor-pointer active:border-lime-500 shadow-none bg-white text-slate-700;
+  }
+}
