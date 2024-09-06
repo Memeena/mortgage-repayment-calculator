@@ -203,7 +203,7 @@ export default function Calculator({
             </p>
           )}
         </div>
-        <button className="px-2 py-3 text-slate-800 font-extrabold flex items-center justify-center gap-4 bg-lime-400 rounded-full mb-8 md:w-max">
+        <button className="px-2 py-3 text-slate-800 font-bold flex items-center justify-center gap-4 bg-lime-400 rounded-full mb-8 md:w-max md:px-4 md:py-4">
           <img src="./assets/images/icon-calculator.svg" alt="calc-icon" />
           Calculate Repayments
         </button>
