@@ -49,7 +49,7 @@ export default function App() {
   }
 
   return (
-    <div className="bg-white flex flex-col md:flex md:flex-row md:justify-between md:rounded-2xl md:mx-60 md:my-20">
+    <div className="bg-white flex flex-col md:flex md:flex-row md:justify-between md:rounded-2xl md:mx-20 md:my-20 lg:mx-60 ">
       <Calculator
         formData={formData}
         setFormData={setFormData}

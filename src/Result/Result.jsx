@@ -8,7 +8,7 @@ export default function Result({ result, totalRepayamount }) {
   if (!result)
     return (
       <div className="bg-slate-700 flex flex-col items-center justify-center p-8 gap-4 md:rounded-bl-[100px] md:px-8 md:py-10 md:w-1/2 md:rounded-r-2xl">
-        <img src="./assets/images/illustration-empty.svg" alt="result" />
+        <img src="../assets/images/illustration-empty.svg" alt="result" />
         <h2 className="text-white font-semibold text-xl">Results shown here</h2>
         <p className="text-slate-300 text-[16px] text-center font-medium">
           Complete the form and click "calculate repayment" to see what your
